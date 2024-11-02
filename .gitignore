@@ -134,4 +134,5 @@ config/config.env
 docker-compose.dev.yml
 
 mongodb/
-.idea
+.idea/
+tmp/
