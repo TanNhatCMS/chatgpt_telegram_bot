@@ -4,3 +4,15 @@ tiktoken>=0.3.0
 PyYAML==6.0
 pymongo==4.6.3
 python-dotenv==0.21.0
+certifi
+chardet
+click
+flask
+future
+idna
+itsdangerous
+jinja2
+markupsafe
+requests
+urllib3
+werkzeug

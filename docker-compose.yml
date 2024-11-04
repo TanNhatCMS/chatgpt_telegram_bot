@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   mongo:
     container_name: mongo
@@ -11,8 +9,8 @@ services:
       - ${MONGODB_PATH:-./mongodb}:/data/db
     # TODO: add auth
 
-  chatgpt_telegram_bot:
-    container_name: chatgpt_telegram_bot
+  telegram_bot:
+    container_name: telegram_bot
     command: python3 bot/bot.py
     restart: always
     build:
@@ -20,6 +18,8 @@ services:
       dockerfile: Dockerfile
     depends_on:
       - mongo
+    volumes:
+      - .:/app
 
   mongo_express:
     container_name: mongo-express

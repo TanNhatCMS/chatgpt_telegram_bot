@@ -5,6 +5,9 @@ info:
     type: chat_completion
     name: ChatGPT
     description: ChatGPT is that well-known model. It's <b>fast</b> and <b>cheap</b>. Ideal for everyday tasks. If there are some tasks it can't handle, try the <b>GPT-4</b>.
+    languages:
+      vi:
+        description: ChatGPT is that well-known model. It's <b>fast</b> and <b>cheap</b>. Ideal for everyday tasks. If there are some tasks it can't handle, try the <b>GPT-4</b>.
 
     price_per_1000_input_tokens: 0.0015
     price_per_1000_output_tokens: 0.002
@@ -18,6 +21,9 @@ info:
     type: chat_completion
     name: GPT-16K
     description: ChatGPT is that well-known model. It's <b>fast</b> and <b>cheap</b>. Ideal for everyday tasks. If there are some tasks it can't handle, try the <b>GPT-4</b>.
+    languages:
+      vi:
+        description: ChatGPT is that well-known model. It's <b>fast</b> and <b>cheap</b>. Ideal for everyday tasks. If there are some tasks it can't handle, try the <b>GPT-4</b>.
 
     price_per_1000_input_tokens: 0.003
     price_per_1000_output_tokens: 0.004
@@ -31,6 +37,9 @@ info:
     type: chat_completion
     name: GPT-4
     description: GPT-4 is the <b>smartest</b> and most advanced model in the world. But it is slower and not as cost-efficient as ChatGPT. Best choice for <b>complex</b> intellectual tasks.
+    languages:
+      vi:
+        description: GPT-4 is the <b>smartest</b> and most advanced model in the world. But it is slower and not as cost-efficient as ChatGPT. Best choice for <b>complex</b> intellectual tasks.
 
     price_per_1000_input_tokens: 0.03
     price_per_1000_output_tokens: 0.06
@@ -44,6 +53,9 @@ info:
     type: chat_completion
     name: GPT-4 Turbo
     description: GPT-4 Turbo is a <b>faster</b> and <b>cheaper</b> version of GPT-4. It's as smart as GPT-4, so you should use it instead of GPT-4.
+    languages:
+      vi:
+        description: GPT-4 Turbo is a <b>faster</b> and <b>cheaper</b> version of GPT-4. It's as smart as GPT-4, so you should use it instead of GPT-4.
 
     price_per_1000_input_tokens: 0.01
     price_per_1000_output_tokens: 0.03
